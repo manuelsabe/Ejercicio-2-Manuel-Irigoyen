@@ -3,8 +3,21 @@
     src: url("/Paprika/Paprika-Regular.ttf");
 }
 
+@font-face {
+    font-family: 'roboto';
+    src: url("/Roboto/Roboto-Regular.ttf");
+}
+
+@font-face {
+    font-family: 'roboto2';
+    src: url("/Roboto/Roboto-Medium.ttf");
+}
+
 body
 {
+    width: 100%;
+    background: rgb(109,183,199);
+    background: linear-gradient(90deg, rgba(109,183,199,1) 26%, rgba(171,111,200,1) 40%);
     margin: 0;
     padding: 0;
 }
@@ -12,11 +25,9 @@ body
 
 header
 {
-    width: 100%;
-    background: rgb(109,183,199);
-    background: linear-gradient(90deg, rgba(109,183,199,1) 26%, rgba(171,111,200,1) 40%);
     padding-bottom: 8px;
     padding-top: 8px;
+    border-bottom: solid white;
 }
 
 header img
@@ -34,20 +45,20 @@ nav
 .list-navegacion
 {
     
-width: 100%;
-list-style: none;
-padding: 0;
-margin: 0;
+    width: 100%;
+    list-style: none;
+    padding: 0;
+    margin: 0;
 }
 
 a
 {
     font-family: 'paprika';
-    text-transform: initial;
     text-decoration: none;
     color: white;
     font-size: 1.5em;
     font-weight: 700;
+    text-transform: uppercase;
    
 }
 
@@ -58,3 +69,199 @@ a
     align-items: center;
     flex-wrap: wrap; 
 }
+
+.contenedor
+{
+
+    width: 100%;
+    padding-bottom: 50px;
+
+}
+.slogan
+{
+
+    width: 40%;
+    padding-top: 40px;
+    padding-left: 40px;
+    text-align: center;
+
+}
+.slogan p
+{
+
+    font-size: 2.3em;
+    font-family: 'paprika';
+    color: white;
+    text-shadow: 1.4px 1.4px black;
+
+}
+
+.botoncatalogo
+{
+
+    width: 20%;
+    height: 45px;
+    color: white;
+    background-color: purple;
+    border: 0;
+    outline: 0;
+    border-radius: 30px;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    min-width: 200px;
+
+}
+
+.botoncatalogo:hover
+{
+
+    background-color: white;
+    color: purple;
+    cursor: pointer;
+
+}
+
+
+.contenedor img
+{
+
+    width: 35%;
+    padding-top: 40px;
+    padding-right: 40px;
+
+
+}
+
+.contenedor img:hover
+{
+    opacity: 0.8;
+    cursor: pointer;
+
+}
+
+a:hover
+{
+
+    text-shadow: 1.5px 1.5px rgb(109,183,199);
+
+}
+
+.list-navegacion img:hover
+{
+    
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+
+.seccion
+
+{
+    background-color: #54CEAF;
+    padding: 80px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.seccion h2
+{
+    margin: 0px;
+    padding: 0;
+    color: white;
+    font-family: 'paprika';
+    font-size: 2.0em;
+    text-transform: uppercase;
+    text-shadow: 1.4px 1.4px black;
+    word-spacing: 0.8em;
+}
+
+.seccion h4
+{
+    margin: 20px 0px 0px 0px;
+    padding: 0;    
+    color: purple;
+    font-family: 'roboto';
+    font-size: 1.3em;
+    font-weight: bold;
+    text-transform: uppercase;
+
+}
+
+.container-info
+{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 70px;
+
+}
+
+.container-img-info
+{
+
+    width: 18%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+
+.img1
+{
+
+    width: 50%;
+
+
+}
+.img2
+{
+
+    width: 65%;
+    padding-top: 60px;
+   
+
+}
+
+.container-img-info p
+{
+    padding-top: 0px;
+    color: white;
+    font-size: 1.1em;
+    width: 60%;
+    text-align: center;
+    text-shadow: 1px 1px purple;
+    font-family: 'roboto2';
+
+}
+
+.p1
+{
+
+
+    margin-top: 10px;
+    
+
+}
+
+.p2
+{
+    
+    margin-top: 24px;
+  
+}
+
+.container-img-info:hover
+{
+
+    opacity: 0.8;
+    cursor: pointer;
+
+}
+
