@@ -28,18 +28,21 @@ header
     padding-bottom: 8px;
     padding-top: 8px;
     border-bottom: solid white;
+    position: fixed;
+    background: linear-gradient(90deg, rgba(109,183,199,1) 26%, rgba(171,111,200,1) 40%);
+
 }
 
 header img
 {
 
-    width: 8%;
+    width: 7%;
 
 }
 
 nav
 {
-    width: 48%;
+    width: 43%;
 }
 
 .list-navegacion
@@ -49,6 +52,7 @@ nav
     list-style: none;
     padding: 0;
     margin: 0;
+    
 }
 
 a
@@ -56,7 +60,7 @@ a
     font-family: 'paprika';
     text-decoration: none;
     color: white;
-    font-size: 1.5em;
+    font-size: 1.4em;
     font-weight: 700;
     text-transform: uppercase;
    
@@ -74,8 +78,10 @@ a
 {
 
     width: 100%;
+    height: 76%;
+    padding-top: 100px;
     padding-bottom: 50px;
-
+    
 }
 .slogan
 {
@@ -88,8 +94,9 @@ a
 }
 .slogan p
 {
-
-    font-size: 2.3em;
+    margin-top: -1px;
+    padding-top: -1px;
+    font-size: 1.9em;
     font-family: 'paprika';
     color: white;
     text-shadow: 1.4px 1.4px black;
@@ -106,7 +113,7 @@ a
     border: 0;
     outline: 0;
     border-radius: 30px;
-    font-size: 1.2em;
+    font-size: 1.1em;
     text-transform: uppercase;
     min-width: 200px;
 
@@ -126,10 +133,10 @@ a
 {
 
     width: 35%;
-    padding-top: 40px;
-    padding-right: 40px;
-
-
+    padding-top: 20px;
+    padding-right: 20px;
+    margin-top: -1px;
+    padding-top: -1px;
 }
 
 .contenedor img:hover
@@ -153,11 +160,158 @@ a:hover
     cursor: pointer;
 }
 
+.seccionlistagomitas
+{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    background-color: #0DC193;
+
+}
+
+.seccionlistagomitas h2
+{
+
+    margin: 50px;
+    color: white;
+    font-family: 'paprika';
+    font-size: 1.7em;
+    text-transform: uppercase;
+    text-shadow: 1.4px 1.4px black;
+    word-spacing: 0.9em;
+}
+
+
+.containercards
+{
+
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+.card
+{
+    color: #0c4ea2;
+    width: 30%;
+    box-shadow: rgba(0, 0, 0, 0.3) 2px 0px 17px 2px;
+    margin: 20px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 10px;
+    border-radius: 20px;
+    transition: transform 150ms ease-in;
+    min-width: 150px;
+}
+
+.card img
+{
+
+
+    height: 200px;
+
+    width: 200px;
+    
+    object-fit: contain;
+    
+    transition: transform 150ms ease-in;
+
+}
+
+.card h3
+{
+
+    color: white;
+    font-family: 'roboto2';
+    font-size: 1.4em;
+    text-shadow: 1.5px 1.5px black;
+
+}
+
+.card p
+{
+
+    font-family: 'roboto2';
+    font-size: 2em;
+    color: white;
+}
+
+
+.card button
+{
+    width: 20%;
+    height: 45px;
+    color: white;
+    background-color: #0c4ea2;
+    border: 0;
+    outline: 0;
+    border-radius: 30px;
+    font-size: 1.1em;
+    text-transform: uppercase;
+    min-width: 200px;
+
+}
+
+.card button:hover
+{
+
+    background-color: white;
+    cursor: pointer;
+    color: #0c4ea2;
+}
+
+.card:hover 
+{
+
+    transform: scale(1.02);
+
+}
+
+
+.card:hover img
+{
+
+    transform: scale(1.1);
+
+}
+
+.botonvermas
+{
+    margin-top: 30px;
+    margin-bottom: 40px;
+    width: 20%;
+    height: 45px;
+    color: white;
+    background-color: purple;
+    border: 0;
+    outline: 0;
+    border-radius: 30px;
+    font-size: 1.1em;
+    text-transform: uppercase;
+    min-width: 200px;
+
+}
+.botonvermas:hover
+{
+
+    background-color: white;
+    color: purple;
+    cursor: pointer;
+
+}
 
 .seccion
 
 {
-    background-color: #54CEAF;
+    background-color: #C080E7;
     padding: 80px 0px;
     display: flex;
     flex-direction: column;
@@ -172,17 +326,17 @@ a:hover
     padding: 0;
     color: white;
     font-family: 'paprika';
-    font-size: 2.0em;
+    font-size: 1.7em;
     text-transform: uppercase;
     text-shadow: 1.4px 1.4px black;
-    word-spacing: 0.8em;
+    word-spacing: 0.9em;
 }
 
 .seccion h4
 {
     margin: 20px 0px 0px 0px;
     padding: 0;    
-    color: purple;
+    color: #0c4ea2;
     font-family: 'roboto';
     font-size: 1.3em;
     font-weight: bold;
@@ -236,7 +390,7 @@ a:hover
     font-size: 1.1em;
     width: 60%;
     text-align: center;
-    text-shadow: 1px 1px purple;
+    text-shadow: 1px 1px blue;
     font-family: 'roboto2';
 
 }
@@ -257,11 +411,12 @@ a:hover
   
 }
 
-.container-img-info:hover
-{
 
-    opacity: 0.8;
-    cursor: pointer;
 
-}
+
+/* DONWEB */
+/* En DonWeb somos líderes en servicios de hosting y dominios de Latinoamérica, 
+con millones de usuarios, ofreciendo servicios de primer nivel al mejor precio. 
+Brindamos servicios de hosting, dominios, página web, tienda online, cloud y muchos más, para Argentina y toda la región.(.org; .com; .com.ar; etc).
+Se vera de una manera mas profesional nuestro dominio si lo compramos */
 
