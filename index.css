@@ -55,7 +55,7 @@ nav
     
 }
 
-a
+.barra
 {
     font-family: 'paprika';
     text-decoration: none;
@@ -409,6 +409,102 @@ a:hover
     
     margin-top: 24px;
   
+}
+
+
+footer
+{
+
+    width: 100%;
+    padding-top: 0px;
+    display: flex;
+    
+}
+
+
+
+.contenedorfoot
+{
+
+    width: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+
+}
+
+
+
+.contenedorfoot h4
+
+{
+
+    font-family: 'roboto2';
+    text-shadow: 1.4px 1.4px white;
+
+}
+
+
+
+.sisi
+
+{
+    
+    display: flex;
+    
+
+}
+
+.ubi
+{
+
+    width: 16px;
+    height: 16px;
+    background-color: white;
+    border-radius: 8px;
+
+}
+
+.hiper
+{
+
+    font-family: 'roboto2';
+    font-size: 1em;
+    color: black;
+    margin: 8px;
+    text-decoration: none;
+
+}
+
+.hiper:hover
+{
+    opacity: 0.8;
+}
+
+.imagenpago
+{
+
+    width: 50%;
+
+
+}
+
+.redes
+{
+
+    width: 27%;
+    margin-top: 2px;
+    margin-left: 26px;
+
+}
+
+.redes:hover
+{
+
+    opacity: 0.8;
+
 }
 
 
